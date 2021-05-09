@@ -13,6 +13,11 @@ if ENV["ADB_DEVICE_ARG"].nil?
     @driver.navigate.to $url_variable 
     sleep 2 
   end 
+
+  Then(/^I click on element css selector "(.*?)"$/) do |selector|
+    @driver.find_element(:css, selector).click
+    sleep 2
+  end
 end
 
 
