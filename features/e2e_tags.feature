@@ -1,13 +1,18 @@
-Feature: Example feature
+Feature: Tags Features
 
 @user1 @web 
-Scenario: As a first user I say hi to a second user 
-Given I navigate to page "https://www.notebookcast.com/" 
-Then I click on element having css selector "a#home-start-drawing-button" 
-Then I enter "Kraken1" into input field having id "nickName" 
-Then I select option with value "2" for dropdown with id "boardType" 
-Then I enter "Example Board" into input field having id "boardTitle" 
-# Then I click on element having css selector ".btn.btn-primary.btn-sm.acceptcookies" 
-Then I click on element having id "createBoardButton" 
-Then I store a variable with the current url 
-Then I send a signal to user 2 containing "hi" 
+Scenario: As a first user I want to CREATE a Tag in ghost
+
+Given I navigate to page "http://localhost:2368/ghost/#/signin" 
+
+Then I enter "pedro3087@gmail.com" into input field having id "ember8" 
+Then I enter "administrador" into input field having id "ember10"
+Then I click on element having id "ember12" 
+
+Then I wait
+Then I should see text "Dashboard"
+
+Then I click on element having id "ember40" 
+Then I click on element having id "ember72" 
+
+
