@@ -1,0 +1,22 @@
+{
+    "@user1": {
+        "EMAIL": "admin@gmail.com",
+        "PASSWORD": "Administrador123"
+    },
+    "@user2": {
+        "EMAIL": "admin@gmail.com",
+        "PASSWORD": "Administrador123"
+    },
+    "@user3": {
+        "EMAIL": "admin@gmail.com",
+        "PASSWORD": "Administrador123"
+    },
+    "@user4": {
+        "EMAIL": "admin@gmail.com",
+        "PASSWORD": "Administrador123"
+    },
+    "@user5": {
+        "EMAIL": "admin@gmail.com",
+        "PASSWORD": "Administrador123"
+    }
+}
