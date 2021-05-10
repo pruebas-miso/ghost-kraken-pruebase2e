@@ -37,10 +37,10 @@ if ENV["ADB_DEVICE_ARG"].nil?
     sleep 2
   end
 
-  Then(/^I choose Unpublish post status option called "(.*?)"$/) do |selector|
+  Then(/^I choose Unpublished post status option called "(.*?)"$/) do |selector|
     elements = @driver.find_elements(:css, selector)
     elements.each { |e|
-      if e.text == 'Unpublish'
+      if e.text == 'Unpublished'
         e.click
       end
     }
