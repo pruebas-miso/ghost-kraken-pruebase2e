@@ -30,7 +30,7 @@ $ gem install kraken-mobile
 To run your test:
 
 ```
-bundle exec kraken-mobile run
+bundle exec kraken-mobile run --properties=./kraken_properties.json
 ```
 
 
