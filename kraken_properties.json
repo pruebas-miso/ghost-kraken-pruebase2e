@@ -1,22 +1,22 @@
 {
     "@user1": {
-        "EMAIL": "admin@gmail.com",
-        "PASSWORD": "Administrador123"
+        "EMAIL": "r.carrenoz@uniandes.edu.co",
+        "PASSWORD": "administrador"
     },
     "@user2": {
-        "EMAIL": "admin@gmail.com",
-        "PASSWORD": "Administrador123"
+        "EMAIL": "r.carrenoz@uniandes.edu.co",
+        "PASSWORD": "administrador"
     },
     "@user3": {
-        "EMAIL": "admin@gmail.com",
-        "PASSWORD": "Administrador123"
+        "EMAIL": "r.carrenoz@uniandes.edu.co",
+        "PASSWORD": "administrador"
     },
     "@user4": {
-        "EMAIL": "admin@gmail.com",
-        "PASSWORD": "Administrador123"
+        "EMAIL": "r.carrenoz@uniandes.edu.co",
+        "PASSWORD": "administrador"
     },
     "@user5": {
-        "EMAIL": "admin@gmail.com",
-        "PASSWORD": "Administrador123"
+        "EMAIL": "r.carrenoz@uniandes.edu.co",
+        "PASSWORD": "administrador"
     }
 }
