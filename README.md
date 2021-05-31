@@ -32,5 +32,22 @@ To run your test:
 ```
 bundle exec kraken-mobile run --properties=./kraken_properties.json
 ```
+- Si se tiene una instancia recien instalada de Ghost, se debe configurar el aplicativo para que habilite el menú de Members. Para ello se debe ir a la opción Labs del panel de configuración de Ghost (http://localhost:2368/ghost/#/settings/labs) y habilitar la opción Members.
 
+**************************
+## Enlaces de interes:
+
+Para ejecutar las pruebas correspondientes a: 
+1. Pruebas de reconocimiento / MONKEYS, vaya a este [Link](https://github.com/pruebas-miso/monkeys)
+2. Pruebas de reconocimiento / Rippers, vaya a este [Link](https://github.com/pruebas-miso/rippers)
+3. Pruebas de extremo a extremo, vaya a este [Link](https://github.com/pruebas-miso/ghost-cypress-e2e/tree/v3.42.5)
+4. Pruebas de regresión visual, vaya a este [Link](https://github.com/pruebas-miso/vrt)
+5. Escenarios de validación de datos, vaya a este [Link](https://github.com/pruebas-miso/ghost-cypress-e2e/tree/v3.42.5)
+
+**************************
+A continuación se encuentran los enlaces para:
+1. [Estrategia de pruebas](https://github.com/pruebas-miso/monkeys/raw/main/results/2021-05-26%20-%20ESTRATEGIA%20DE%20PRUEBAS%20DE%20GHOST%20-%20PRESUPUESTO%20FINAL.docx)
+2. [Inventario de pruebas manuales](https://github.com/pruebas-miso/monkeys/raw/main/results/Inventario%20Pruebas%20Manuales%20Ghost%20Entrega%20Final.xlsx)
+3. [Video descriptivo (estrategia, resultados, analisis y limitaciones)](https://youtu.be/6UDmNYdJdlE)
+4. [Registro de las 20 incidencias](https://github.com/pruebas-miso/vrt/issues)
 
